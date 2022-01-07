@@ -444,6 +444,22 @@ eslint-config-prettier@^8.3.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
+"eslint-config-x@https://github.com/rajatsharma/eslint-config-x":
+  version "1.0.0"
+  resolved "https://github.com/rajatsharma/eslint-config-x#7c0ad041720386eca166cd07b4d60dccc9fef94c"
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.9.0"
+    "@typescript-eslint/parser" "^5.9.0"
+    eslint "^8.6.0"
+    eslint-config-prettier "^8.3.0"
+    eslint-plugin-import "^2.25.4"
+    eslint-plugin-jsx-a11y "^6.5.1"
+    eslint-plugin-prettier "^4.0.0"
+    eslint-plugin-react "^7.28.0"
+    eslint-plugin-react-hooks "^4.3.0"
+    prettier "^2.5.1"
+    typescript "^4.5.4"
+
 eslint-import-resolver-node@^0.3.6:
   version "0.3.6"
   resolved "https://registry.yarnpkg.com/eslint-import-resolver-node/-/eslint-import-resolver-node-0.3.6.tgz#4048b958395da89668252001dbd9eca6b83bacbd"
