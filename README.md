@@ -1,4 +1,4 @@
-# eslint-config-x
+# eslint-config-rsh
 
 > My Eslint Config
 
