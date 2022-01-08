@@ -5,13 +5,13 @@
 ## Installation
 
 ```sh
-yarn add -D https://github.com/rajatsharma/eslint-config-x
+yarn add -D https://github.com/rajatsharma/eslint-config-rsh
 ```
 
 ## Usage
 
 ```json
 {
-  "extends": "x"
+  "extends": "rsh"
 }
 ```
