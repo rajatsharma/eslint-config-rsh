@@ -9,7 +9,7 @@ export = {
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "eslint-config-prettier",
-    "prettier/react",
+    "prettier",
   ],
   plugins: ["prettier", "@typescript-eslint", "react", "react-hooks", "import"],
   settings: {
