@@ -6,12 +6,20 @@ export = {
   },
   extends: [
     "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
     "plugin:prettier/recommended",
     "eslint-config-prettier",
+    "prettier/react",
   ],
-  plugins: ["prettier", "@typescript-eslint", "import"],
+  plugins: ["prettier", "@typescript-eslint", "react", "react-hooks", "import"],
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   env: {
     es6: true,
+    browser: true,
     node: true,
   },
 };
