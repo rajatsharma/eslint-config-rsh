@@ -22,12 +22,12 @@ export = {
       "error",
       {
         groups: [
+          "external",
+          "builtin",
+          "internal",
           "index",
           "sibling",
           "parent",
-          "internal",
-          "external",
-          "builtin"
         ]
       }
     ]
