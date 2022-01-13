@@ -17,6 +17,21 @@ export = {
       version: "detect",
     },
   },
+  rules: {
+    "import/order": [
+      "error",
+      {
+        groups: [
+          "index",
+          "sibling",
+          "parent",
+          "internal",
+          "external",
+          "builtin"
+        ]
+      }
+    ]
+  },
   env: {
     es6: true,
     browser: true,
