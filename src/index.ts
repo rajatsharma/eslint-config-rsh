@@ -18,6 +18,7 @@ export = {
     },
   },
   rules: {
+    "react/react-in-jsx-scope": "off",
     "import/order": [
       "error",
       {
