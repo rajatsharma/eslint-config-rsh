@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-yarn add -D https://github.com/rajatsharma/eslint-config-rsh
+pnpm add -D ssh://git@github.com:rajatsharma/eslint-config-rsh.git
 ```
 
 ## Usage
